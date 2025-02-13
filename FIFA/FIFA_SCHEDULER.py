@@ -49,29 +49,34 @@ START OF CUSTOMIZABLE VARIABLES
 
 '''
 
-team_names = [
-    # Can be any Number of teams, so long as it is even
-"Anaheim Ducks",
-"California Golden Seals",
-"Edmonton Oilers",
-"Minnesota Wild",
-"San Jose Sharks",
-"Seattle Kraken",
-"Utah Ice",
-"Vancouver Canucks",
-"Atlanta Gladiators",
-"Atlanta Thrashers 2",
-"Chicago Blackhawks",
-"Chicago Wolves",
-"Huntington Blizzards",
-"Iowa Heartlanders",
-"Nashville Predators",
-"Toledo Walleye",
-"Buffalo Sabres",
-"Carolina Hurricanes",
-"Cleaveland Monsters",
-"Detroit Red Wings"
-]
+# team_names = [
+#     # Can be any Number of teams, so long as it is even
+# "Anaheim Ducks",
+# "California Golden Seals",
+# "Edmonton Oilers",
+# "Minnesota Wild",
+# "San Jose Sharks",
+# "Seattle Kraken",
+# "Utah Ice",
+# "Vancouver Canucks",
+# "Atlanta Gladiators",
+# "Atlanta Thrashers 2",
+# "Chicago Blackhawks",
+# "Chicago Wolves",
+# "Huntington Blizzards",
+# "Iowa Heartlanders",
+# "Nashville Predators",
+# "Toledo Walleye",
+# "Buffalo Sabres",
+# "Carolina Hurricanes",
+# "Cleaveland Monsters",
+# "Detroit Red Wings"
+# ]
+
+team_cnt = 42
+team_names = []
+
+    
 
 TIMES_TO_PLAY = 2 # Number of times each team plays each other
 # Note: The schedule will repeat itself exactly for each time to play eachother
@@ -233,4 +238,7 @@ def main():
 
 
 if __name__ == "__main__":
+    for i in range(team_cnt):
+        team_names.append("Team " + str(i+1))
+    print("Team Count: " + str(len(team_names)))
     main()
