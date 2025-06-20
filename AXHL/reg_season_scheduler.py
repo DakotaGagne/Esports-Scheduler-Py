@@ -50,56 +50,56 @@ team_names = [
     # Ensure that all divisions and conferences have the same number of teams
 
 # P, C, M, A
-
-["W-Conf", "P-Div", "Alaska Aces"],
-["W-Conf", "P-Div", "Anaheim Ducks"],
 ["W-Conf", "P-Div", "Calgary Flames"],
-["W-Conf", "P-Div", "Coachella Valley Firebirds"],
-["W-Conf", "P-Div", "Edmonton Oilers"],
+["W-Conf", "P-Div", "Colorado Avalanche"],
 ["W-Conf", "P-Div", "Los Angeles Kings"],
-["W-Conf", "P-Div", "Tahoe Knight Monsters"],
+["W-Conf", "P-Div", "Ontario Reign"],
+["W-Conf", "P-Div", "San Jose Sharks"],
 ["W-Conf", "P-Div", "Utah Grizzlies"],
+["W-Conf", "P-Div", "Seattle Kraken"],
 ["W-Conf", "P-Div", "Vancouver Canucks"],
 ["W-Conf", "P-Div", "Vegas Golden Knights"],
+["W-Conf", "P-Div", "Edmonton Oilers"],
 
-["W-Conf", "C-Div", "Allen Americans"],
+["W-Conf", "C-Div", "Atlanta Flames"],
 ["W-Conf", "C-Div", "Chicago Blackhawks"],
-["W-Conf", "C-Div", "Colorado Avalanche"],
+["W-Conf", "C-Div", "Cincinnati Cyclones"],
 ["W-Conf", "C-Div", "Dallas Stars"],
-["W-Conf", "C-Div", "Kansas City Mavericks"],
-["W-Conf", "C-Div", "Phoenix Coyotes"],
-["W-Conf", "C-Div", "Quad City Mallards"],
-["W-Conf", "C-Div", "St. Louis Blues"],
+["W-Conf", "C-Div", "Fort Wayne Komets"],
+["W-Conf", "C-Div", "Iowa Heartlanders"],
+["W-Conf", "C-Div", "St.Louis Blues"],
 ["W-Conf", "C-Div", "Toledo Walleye"],
+["W-Conf", "C-Div", "Wichita Thunder"],
 ["W-Conf", "C-Div", "Winnipeg Jets"],
 
-["E-Conf", "M-Div", "Buffalo Sabres"],
-["E-Conf", "M-Div", "Carolina Hurricanes"],
-["E-Conf", "M-Div", "Charlotte Checkers"],
+
+["E-Conf", "M-Div", "Brantford Bulldogs"],
+["E-Conf", "M-Div", "Columbus Blue Jackets"],
 ["E-Conf", "M-Div", "Detroit Red Wings"],
-["E-Conf", "M-Div", "Orlando Solar Bears"],
-["E-Conf", "M-Div", "Pittsburgh Penguins"],
-["E-Conf", "M-Div", "Richmond Renegades"],
+["E-Conf", "M-Div", "Florida Panthers"],
+["E-Conf", "M-Div", "Jacksonville Icemen"],
+["E-Conf", "M-Div", "London Knights"],
 ["E-Conf", "M-Div", "Savannah Ghost Pirates"],
-["E-Conf", "M-Div", "Toronto Maple Leafs"],
-["E-Conf", "M-Div", "Washington Capitals"],
+["E-Conf", "M-Div", "Tampa Bay Lightning"],
+["E-Conf", "M-Div", "Toronto Marlies"],
+["E-Conf", "M-Div", "Windsor Spitfires"],
 
 ["E-Conf", "A-Div", "Boston Bruins"],
-["E-Conf", "A-Div", "Hartford Whalers"],
-["E-Conf", "A-Div", "Hershey Bears"],
-["E-Conf", "A-Div", "Lehigh Valley Phantoms"],
-["E-Conf", "A-Div", "Maine Mariners"],
+["E-Conf", "A-Div", "Buffalo Sabers"],
+["E-Conf", "A-Div", "Carolina Hurricanes"],
+["E-Conf", "A-Div", "Montreal Canadiens"],
 ["E-Conf", "A-Div", "New Jersey Devils"],
-["E-Conf", "A-Div", "New York Rangers"],
-["E-Conf", "A-Div", "Ottawa Senators"],
+["E-Conf", "A-Div", "New York Islanders"],
+["E-Conf", "A-Div", "Niagara Icedogs"],
 ["E-Conf", "A-Div", "Philadelphia Flyers"],
-["E-Conf", "A-Div", "Worcester Railers"]
+["E-Conf", "A-Div", "Quebec Nordiques"],
+["E-Conf", "A-Div", "Toronto Maple Leafs"]
 ]
 
 
 gameDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"] # List of weekdays on which games will be held. Can change to desired weekly sched
 matchTimes = ["9:55PM EST", "10:35PM EST"] # Time slots for matches. Can change to desired time slots (must be 2 values)
-startDayRegseason = [2024, 10, 20] # The starting day of the regular season schedule - Can be changed to desired start date
+startDayRegseason = [2024, 7, 6] # The starting day of the regular season schedule - Can be changed to desired start date
 
 # Total Schedule Length
     # Default to ttlMatchPerTeam unless its 0
@@ -119,9 +119,9 @@ pausePointDates = []
 # 26 Division, 24 intra conf, 32 inter conf
 # 82 total
 req_dist = {
-    "same_div": 0.3050, # Within same conf and div
-    "same_conf": 0.2950, # Diff div, same conf
-    "diff_conf": 0.1000 # Diff conf (req dist her is per match combination (ttl 4))
+    "same_div": 0.3333, # Within same conf and div
+    "same_conf": 0.3333, # Diff div, same conf
+    "diff_conf": 0.0833 # Diff conf (req dist her is per match combination (ttl 4))
 }
 
 

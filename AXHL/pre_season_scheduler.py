@@ -37,7 +37,7 @@ import time
 # Declarations
 
 defSeed = 2550841796367335994 # Default Seed to use if want repeatable results
-autoseed = True # Set to True if want random results
+autoseed = False # Set to True if want random results
 
 '''
 
@@ -45,58 +45,62 @@ START OF CUSTOMIZABLE VARIABLES
 
 '''
 
+
+
+
 team_names = [
     # Can Change these values
     # Ensure that all divisions and conferences have the same number of teams
-["W-Conf", "P-Div", "Alaska Aces"],
-["W-Conf", "P-Div", "Anaheim Ducks"],
 ["W-Conf", "P-Div", "Calgary Flames"],
-["W-Conf", "P-Div", "Coachella Valley Firebirds"],
-["W-Conf", "P-Div", "Edmonton Oilers"],
+["W-Conf", "P-Div", "Colorado Avalanche"],
 ["W-Conf", "P-Div", "Los Angeles Kings"],
-["W-Conf", "P-Div", "Tahoe Knight Monsters"],
+["W-Conf", "P-Div", "Ontario Reign"],
+["W-Conf", "P-Div", "San Jose Sharks"],
 ["W-Conf", "P-Div", "Utah Grizzlies"],
+["W-Conf", "P-Div", "Seattle Kraken"],
 ["W-Conf", "P-Div", "Vancouver Canucks"],
 ["W-Conf", "P-Div", "Vegas Golden Knights"],
+["W-Conf", "P-Div", "Edmonton Oilers"],
 
-["W-Conf", "C-Div", "Allen Americans"],
+["W-Conf", "C-Div", "Atlanta Flames"],
 ["W-Conf", "C-Div", "Chicago Blackhawks"],
-["W-Conf", "C-Div", "Colorado Avalanche"],
+["W-Conf", "C-Div", "Cincinnati Cyclones"],
 ["W-Conf", "C-Div", "Dallas Stars"],
-["W-Conf", "C-Div", "Kansas City Mavericks"],
-["W-Conf", "C-Div", "Phoenix Coyotes"],
-["W-Conf", "C-Div", "Quad City Mallards"],
-["W-Conf", "C-Div", "St. Louis Blues"],
+["W-Conf", "C-Div", "Fort Wayne Komets"],
+["W-Conf", "C-Div", "Iowa Heartlanders"],
+["W-Conf", "C-Div", "St.Louis Blues"],
 ["W-Conf", "C-Div", "Toledo Walleye"],
+["W-Conf", "C-Div", "Wichita Thunder"],
 ["W-Conf", "C-Div", "Winnipeg Jets"],
 
-["E-Conf", "M-Div", "Buffalo Sabres"],
-["E-Conf", "M-Div", "Carolina Hurricanes"],
-["E-Conf", "M-Div", "Charlotte Checkers"],
+
+["E-Conf", "M-Div", "Brantford Bulldogs"],
+["E-Conf", "M-Div", "Columbus Blue Jackets"],
 ["E-Conf", "M-Div", "Detroit Red Wings"],
-["E-Conf", "M-Div", "Orlando Solar Bears"],
-["E-Conf", "M-Div", "Pittsburgh Penguins"],
-["E-Conf", "M-Div", "Richmond Renegades"],
+["E-Conf", "M-Div", "Florida Panthers"],
+["E-Conf", "M-Div", "Jacksonville Icemen"],
+["E-Conf", "M-Div", "London Knights"],
 ["E-Conf", "M-Div", "Savannah Ghost Pirates"],
-["E-Conf", "M-Div", "Toronto Maple Leafs"],
-["E-Conf", "M-Div", "Washington Capitals"],
+["E-Conf", "M-Div", "Tampa Bay Lightning"],
+["E-Conf", "M-Div", "Toronto Marlies"],
+["E-Conf", "M-Div", "Windsor Spitfires"],
 
 ["E-Conf", "A-Div", "Boston Bruins"],
-["E-Conf", "A-Div", "Hartford Whalers"],
-["E-Conf", "A-Div", "Hershey Bears"],
-["E-Conf", "A-Div", "Lehigh Valley Phantoms"],
-["E-Conf", "A-Div", "Maine Mariners"],
+["E-Conf", "A-Div", "Buffalo Sabers"],
+["E-Conf", "A-Div", "Carolina Hurricanes"],
+["E-Conf", "A-Div", "Montreal Canadiens"],
 ["E-Conf", "A-Div", "New Jersey Devils"],
-["E-Conf", "A-Div", "New York Rangers"],
-["E-Conf", "A-Div", "Ottawa Senators"],
+["E-Conf", "A-Div", "New York Islanders"],
+["E-Conf", "A-Div", "Niagara Icedogs"],
 ["E-Conf", "A-Div", "Philadelphia Flyers"],
-["E-Conf", "A-Div", "Worcester Railers "]
+["E-Conf", "A-Div", "Quebec Nordiques"],
+["E-Conf", "A-Div", "Toronto Maple Leafs"]
 ]
 
 
 gameDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"] # List of weekdays on which games will be held. Can change to desired weekly sched
 matchTimes = ["9:55PM EST", "10:35PM EST"] # Time slots for matches. Can change to desired time slots (must be 2 values)
-startDayPreseason = [2024, 10, 13] # The starting day of the pre season schedule - Can be changed to desired start date
+startDayPreseason = [2025, 6, 22] # Y,M,D The starting day of the pre season schedule - Can be changed to desired start date
 
 '''
 
