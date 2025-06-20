@@ -48,6 +48,9 @@ START OF CUSTOMIZABLE VARIABLES
 team_names = [
     # Can Change these values
     # Ensure that all divisions and conferences have the same number of teams
+
+# P, C, M, A
+
 ["W-Conf", "P-Div", "Alaska Aces"],
 ["W-Conf", "P-Div", "Anaheim Ducks"],
 ["W-Conf", "P-Div", "Calgary Flames"],
@@ -103,23 +106,24 @@ startDayRegseason = [2024, 10, 20] # The starting day of the regular season sche
     
 # Will base schedule off of ttlMatchPerTeam unless it is set to 0, then it will base sched off of weeks
 weeks = 8 # Length of reg season
-ttlMatchPerTeam = 82 # Total matches, if specified
+ttlMatchPerTeam = 60 # Total matches, if specified
 
 # Inclusive start and end
 # Can be a single date or a range
 # EX single date: [2024, 10, 31]
 # EX range: [[2024, 10, 31], [2024, 11, 28]]
 # EX combined: [[2024, 10, 25], [[2024, 10, 31], [2024, 11, 08]], [2024, 11, 25]]
-pausePointDates = [[2024, 10, 31], [2024, 11, 28]]
+pausePointDates = []
 
 
 # 26 Division, 24 intra conf, 32 inter conf
 # 82 total
 req_dist = {
-    "same_div": 0.3169, # Within same conf and div
-    "same_conf": 0.2927, # Diff div, same conf
-    "diff_conf": 0.0976 # Diff conf (req dist her is per match combination (ttl 4))
+    "same_div": 0.3050, # Within same conf and div
+    "same_conf": 0.2950, # Diff div, same conf
+    "diff_conf": 0.1000 # Diff conf (req dist her is per match combination (ttl 4))
 }
+
 
 
 

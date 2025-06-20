@@ -31,8 +31,8 @@ START OF CUSTOMIZABLE VARIABLES
 
 '''
 
-defSeed = 6730504492698659822 # Default Seed to use if want repeatable results
-autoseed = True # Set to True if want random results
+defSeed = 8253577151864899339 # Default Seed to use if want repeatable results
+autoseed = False # Set to True if want random results
 
 TTL_MATCHES = 82 # Total number of matches to be played in a season
 
@@ -51,7 +51,7 @@ team_names = [
     "Chicago Blackhawks",
     "Cincinnati Cyclones",
     "Cincinnati Mighty Ducks",
-    "Columus Cottonmouths",
+    "Columbus Cottonmouths",
     "Dallas Stars",
     "Detroit Red Wings",
     "Edmonton Oilers",
@@ -76,7 +76,7 @@ team_names = [
     "San Jose Sharks",
     "Springfield Thunderbirds",
     "Syracuse Crunch",
-    "TampaBay Lightning",
+    "Tampa Bay Lightning",
     "Toeldo Walleye",
     "Toronto Maple Leafs",
     "Utah HC",

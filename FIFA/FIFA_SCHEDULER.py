@@ -230,8 +230,7 @@ def main():
     # Create CSV file for schedule
 
     print("Creating AXFIFA SCHEDULE CSV...")
-    df = pd.DataFrame(formatted_schedule)
-    df.to_csv('AXFIFA_SCHEDULE.csv', index=False, header=0)
+    
     
     # Print time it takes to execute
     print("Execution took %s Seconds" % (time.time() - start_time))
