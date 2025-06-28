@@ -119,9 +119,9 @@ pausePointDates = []
 # 26 Division, 24 intra conf, 32 inter conf
 # 82 total
 req_dist = {
-    "same_div": 0.3333, # Within same conf and div
-    "same_conf": 0.3333, # Diff div, same conf
-    "diff_conf": 0.0833 # Diff conf (req dist her is per match combination (ttl 4))
+    "same_div": 0.35, # Within same conf and div
+    "same_conf": 0.35, # Diff div, same conf
+    "diff_conf": 0.30 # Diff conf (req dist her is per match combination (ttl 4))
 }
 
 
